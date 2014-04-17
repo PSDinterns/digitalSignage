@@ -1,0 +1,1 @@
+This repository is for a digital signage project that uses socket.io to push a URL from an admin website to a client website which then creates an Iframe that has special support for both youtube and Google Presentations.

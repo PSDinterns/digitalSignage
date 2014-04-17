@@ -1,0 +1,71 @@
+<html>
+<head>
+	<title>Digital Signage</title>
+	<style>
+		html, body {
+			overflow:hidden;
+			background: black;
+			padding: 0;
+			margin: 0;
+			width: 100%;
+			height: 100%;
+		}
+		html, body, div{
+			padding: 0;
+			margin: 0;
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div id="iHope"></div>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script>
+		jQuery(function($){
+			var socket = io.connect();
+			var $messageForm = $('#send-message');
+			var $messageBox = $('#message');
+			var $chat = $('#chat');
+			$messageForm.submit(function(e){
+				e.preventDefault();
+				socket.emit('send message', $messageBox.val());
+				$messageBox.val('');
+			});
+			
+			socket.on('new signage', function(data){
+				return data
+			});
+		});
+		var myFrame = data
+		if(myFrame.substring(0,22) === "http://www.youtube.com"){
+			var youtubeId = myFrame.substring(31,42);
+			myFrame = "http://www.youtube.com/embed/" + youtubeId + "?autoplay=1&loop=1&playlist=" + youtubeId;
+		}else if(myFrame.substring(0,57) === "https://docs.google.com/a/edtools.psd401.net/presentation"){
+			myFrame = myFrame.substring(0,104) + "/embed";
+		}else if(myFrame.substring(0,49) === "https://docs.google.com/a/edtools.psd401.net/file"){
+			alert("WOAH! Thats a file not a presentation!");
+		}else{
+			alert("I DON'T KNOW WHAT THAT MEANS");
+		}
+		window.onload = function(){
+		var iframe = document.createElement('iframe');
+			iframe.frameBorder=0;
+			iframe.width="100%";
+			iframe.height="100%";
+			iframe.id="techPresenation";
+			iframe.setAttribute("src", myFrame);
+			document.getElementById("iHope").appendChild(iframe);
+		}
+		var refreshMinutes = 30;
+		var timer=setInterval(function(){refreshFrame()}, refreshMinutes*60*1000);
+		function refreshFrame()
+		{
+			var iframe = document.getElementById('techPresentation');
+			var iframeURL = iframe.src;
+			iframe.src = iframeURL;
+		}
+	</script>
+</body>
+</html>
