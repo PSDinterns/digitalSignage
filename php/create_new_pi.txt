@@ -1,0 +1,107 @@
+<form action="configure.php" method="post">
+        <!-- 1 -->
+        1.<select  name="type1"  required>
+        <option value="url">URL</option>
+        <option value="youtube">Youtube</option>
+        <option value="googleDocs">Google Docs</option>
+        <option value="rss">RSS Feed</option>
+        </select>
+        <input type="text" style="border:none" name="option1" placeHolder="URL of item"  required>
+        
+        <input type="text" style="border:none" name="time1" placeHolder="seconds to display" required>
+        
+        <br/>
+        
+        <!-- 2 -->
+        2.<select name="type2">
+        <option value="url">URL</option>
+        <option value="youtube">Youtube</option>
+        <option value="googleDocs">Google Docs</option>
+        <option value="rss">RSS Feed</option>
+        </select>
+        <input type="text" style="border:none" name="option2" placeHolder="URL of item">
+        <input type="text" style="border:none" name="time2" placeHolder="seconds to display">
+        <br/>
+        
+        <!-- 3 -->
+        3.<select name="type3">
+        <option value="url">URL</option>
+        <option value="youtube">Youtube</option>
+        <option value="googleDocs">Google Docs</option>
+        <option value="rss">RSS Feed</option>
+        </select>
+        <input type="text" style="border:none" name="option3" placeHolder="URL of item">
+        <input type="text" style="border:none" name="time3" placeHolder="seconds to display">
+        <br/>
+        
+        <!-- 4 -->
+        4.<select name="type4">
+        <option value="url">URL</option>
+        <option value="youtube">Youtube</option>
+        <option value="googleDocs">Google Docs</option>
+        <option value="rss">RSS Feed</option>
+        </select>
+        <input type="text" style="border:none" name="option4" placeHolder="URL of item">
+        <input type="text" style="border:none" name="time4" placeHolder="seconds to display">
+        <br/>
+        
+        <!-- 5 -->
+        5.<select name="type5">
+        <option value="url">URL</option>
+        <option value="youtube">Youtube</option>
+        <option value="googleDocs">Google Docs</option>
+        <option value="rss">RSS Feed</option>
+        </select>
+        <input type="text" style="border:none" name="option5" placeHolder="URL of item">
+        <input type="text" style="border:none" name="time5" placeHolder="seconds to display">
+        <br/>
+        
+        <!-- 6 -->
+        6.<select name="type6">
+        <option value="url">URL</option>
+        <option value="youtube">Youtube</option>
+        <option value="googleDocs">Google Docs</option>
+        <option value="rss">RSS Feed</option>
+        </select>
+        <input type="text" style="border:none" name="option6" placeHolder="URL of item">
+        <input type="text" style="border:none" name="time6" placeHolder="seconds to display">
+        <br/>
+        
+        <!-- 7 -->
+        7.<select name="type7">
+        <option value="url">URL</option>
+        <option value="youtube">Youtube</option>
+        <option value="googleDocs">Google Docs</option>
+        <option value="rss">RSS Feed</option>
+        </select>
+        <input type="text" style="border:none" name="option7" placeHolder="URL of item">
+        <input type="text" style="border:none" name="time7" placeHolder="seconds to display">
+        <br/>
+        
+        
+        <!-- 8 -->
+        8.<select name="type8">
+        <option value="url">URL</option>
+        <option value="youtube">Youtube</option>
+        <option value="googleDocs">Google Docs</option>
+        <option value="rss">RSS Feed</option>
+        </select>
+        <input type="text" style="border:none" name="option8" placeHolder="URL of item">
+        <input type="text" style="border:none" name="time8" placeHolder="seconds to display">
+        <br/>
+        
+        
+        <!-- 9 -->
+        9.<select name="type9">
+        <option value="url">URL</option>
+        <option value="youtube">Youtube</option>
+        <option value="googleDocs">Google Docs</option>
+        <option value="rss">RSS Feed</option>
+        </select>
+        <input type="text" style="border:none" name="option9" placeHolder="URL of item">
+        <input type="text" style="border:none" name="time9" placeHolder="seconds to display">
+        <br/>
+        
+       
+        
+        <textarea name="notes" style="border: none" rows="6" cols="83" placeHolder="Where is the rasphery pi located at? Also, is there anything else someone might need to know in the future?" required></textarea>
