@@ -1,4 +1,0 @@
-<br/>
-Rasphery pi will goto url HTTP://GOOGLE.COM for 15 seconds then<br/>
-Rasphery pi will goto youtube video HTTP://YOUTUBE.COM for 45 seconds then<br/>
-Rasphery pi will restart at the top.

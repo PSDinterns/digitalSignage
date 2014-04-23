@@ -1,4 +1,9 @@
 <?php
+    /*Hey you, Jadon! mini apache/php/mysql server
+     windows: http://www.wampserver.com/en/
+     osx: https://www.mamp.info/en/
+     linux: http://lamphowto.com/
+     */
     echo file_get_contents("header.txt", 'r');
 
     echo '

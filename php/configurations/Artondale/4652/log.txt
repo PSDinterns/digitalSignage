@@ -1,1 +1,0 @@
-<br/>1.Rasphery pi will goto url http://google.com for 60 seconds.<br/>
