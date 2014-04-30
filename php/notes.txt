@@ -1,0 +1,4 @@
+<br/><br/>
+<hr></hr>
+<h4>A note on view/sharing settings</h4>
+<p>If you select a type of media, such as google docs or an uploaded youtube video, it must be set in the sharing settings of that media that <b>anyone with the link</b>, or <b>public on the web</b>. If you have it set so that only specific people that you have shared it with are able to view the content, or only people at the Peninsula School District, the raspberry pi will not be able to show the media content.</p>

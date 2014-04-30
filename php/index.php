@@ -30,12 +30,12 @@
     </select>
     
     
-    <input type="text" name="id" placeHolder="id # of rasphery pi" required>
+    <input type="text" size="8" name="id" placeHolder="id # of pi">
     <input type="password" name="password" placeHolder="password" required>
     <input type="hidden" name="step" value=1>
     <input type="submit">
    </form>
     ';
-    
+    echo file_get_contents("news.txt", 'r');//to post info about updates after release
     echo file_get_contents("footer.txt", 'r');
     ?>

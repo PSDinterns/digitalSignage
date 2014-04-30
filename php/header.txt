@@ -16,7 +16,7 @@
     <div class="wrapper">
       <header>
         <h1>Digital Signage</h1>
-        <p>Powered by Raspberry pi!</p>
+        <p>Powered by the Raspberry pi!</p>
         
       </header>
       <section>
